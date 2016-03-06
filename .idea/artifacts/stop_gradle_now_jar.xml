@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="stop-gradle-now:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/stop_gradle_now_jar</output-path>
+    <root id="archive" name="stop-gradle-now.jar">
+      <element id="module-output" name="stop-gradle-now" />
+    </root>
+  </artifact>
+</component>

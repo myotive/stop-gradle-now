@@ -1,0 +1,33 @@
+<idea-plugin version="2">
+  <id>com.yotive.StopGradle</id>
+  <name>Stop Gradle Now</name>
+  <version>1.0</version>
+  <vendor>MBY LLC</vendor>
+
+  <description><![CDATA[
+      This plugin stops the gradle command by invoking the `./gradlew --stop` command.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <b>v1.0</b><br>
+      Initial release.
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="141.0"/>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="StopGradleNow" class="com.yotive.StopGradleNow.StopGradleNowAction" text="Stop Gradle"
+            description="Executes stop command on gradle." icon="/icons/stop_gradle_icon.png">
+      <add-to-group group-id="ToolbarRunGroup" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
