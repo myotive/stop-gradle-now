@@ -1,7 +1,7 @@
 Stop Gradle Now!
 ================
 
-Plugin for Android Studio to stop gradle.
+Plugin for Android Studio to stop gradle by invoking the `./gradlew --stop` command.
 
 I wrote this plugin in response [this reddit post](https://www.reddit.com/r/androiddev/comments/48x000/literally_the_only_dev_environment_incapable_of/). Also, I was curious how to write plugins to intellij. I've written extensions for Visual Studio for previous jobs, but never Android Studio (and never in Java).
 
