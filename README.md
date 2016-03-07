@@ -10,6 +10,7 @@ As a matter of fact, this is the first time I've downloaded intellij.
 After developing and verifying the plugin worked in Android Studio, I realized I never did my due diligence in searching to see if anyone else had actually done something similar.
 
 Looks like I'm not the first to come up with this plugin.
+
 GradleKillerIdeaPlugin - ([JetBrains link](https://plugins.jetbrains.com/plugin/7794?pr=idea)) ([Github](https://github.com/KanbanApps/GradleKillerIdeaPlugin))
 
 Our solutions are different (killing the gradle process vs executing the `gradle --stop` command), but I won't be posting mine to JetBrains unless someone wants me to. I'll leave the repo up as a learning experience.
